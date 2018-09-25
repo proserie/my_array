@@ -2,6 +2,16 @@ from statistics import median
 
 
 class Array:
+	'''
+	This is a single-dimensional numeric array for scientific computing.
+
+	This array will compute lots of basic statics
+
+	Parameters
+	----------
+	data: list
+		List of numbers
+	'''
 
 
 	def __init__(self, data):
