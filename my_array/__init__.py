@@ -1,5 +1,5 @@
 from statistics import median
-
+from array import array
 
 class Array:
 	'''
@@ -15,7 +15,7 @@ class Array:
 
 
 	def __init__(self, data):
-		self.data = data
+		self.data = array('d', data)
 
 	def sum(self):
 		'''
