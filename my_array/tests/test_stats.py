@@ -14,5 +14,3 @@ def test_min():
 def test_max():
     assert arr.max() == 8
     assert arr2.max() == 15
-
-def
